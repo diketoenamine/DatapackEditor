@@ -1,0 +1,10 @@
+name: DatapackEditor
+version: '${project.version}'
+main: zane1117.datapackeditor.DatapackEditor
+api-version: '1.19'
+author: Zane1117
+commands:
+  datapackeditor:
+    description: Main command
+    usage: /datapackeditor
+    aliases: de
