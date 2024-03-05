@@ -30,7 +30,8 @@ They are processed (turned into normal commands) when put into a slot.
 Available macros include:  
 `*hand` - Imports a command from the command block you are holding. Useful for long commands.  
 `*fakechat [player] [message]` - Fakes a chat message using tellraw. The player doesn't have to exist.  
-`*fakeserver [message]` - Same as `*fakechat`, but as [Server] instead of a player.
+`*fakeserver [message]` - Same as `*fakechat`, but as [Server] instead of a player.  
+`*null` - Always returns null. Used to remove commands.  
 
 # Permission Management
 
